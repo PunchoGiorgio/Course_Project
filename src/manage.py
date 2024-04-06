@@ -1,13 +1,7 @@
-#!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
+
 import os
 import sys
-
-# from issues.models import Issue
-
-# def side_effect():
-#     issues = Issue.objects.all()
-#     print(issues)
 
 
 def main():
@@ -21,8 +15,6 @@ def main():
             "available on your PYTHONPATH environment variable? Did you "
             "forget to activate a virtual environment?"
         ) from exc
-
-    # side_effect()
 
     execute_from_command_line(sys.argv)
 
